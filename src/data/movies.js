@@ -1,0 +1,393 @@
+export const movies = [
+    {
+      id: 1,
+      title: "The Shawshank Redemption",
+      description: "Two imprisoned men bond over several years...",
+      category: "Drama",
+      rating: 9.3,
+      year: 1994,
+      duration: "142m",
+      thumbnail: "/thumbnails/shawshank.jpg",
+      videoUrl: "/videos/movies/the-shawshank-redemption.mp4"
+    },
+    {
+      id: 2,
+      title: "The Godfather",
+      description: "The aging patriarch of a crime dynasty...",
+      category: "Crime",
+      rating: 9.2,
+      year: 1972,
+      duration: "175m",
+      thumbnail: "/thumbnails/godfather.jpg",
+      videoUrl: "/videos/movies/the-godfather.mp4"
+    },
+    {
+      id: 3,
+      title: "The Dark Knight",
+      description: "Batman faces the Joker in Gotham City...",
+      category: "Action",
+      rating: 9.0,
+      year: 2008,
+      duration: "152m",
+      thumbnail: "/thumbnails/darkknight.jpg",
+      videoUrl: "/videos/movies/the-dark-knight.mp4"
+    },
+    {
+      id: 4,
+      title: "Pulp Fiction",
+      description: "Interconnected stories of criminals in LA...",
+      category: "Crime",
+      rating: 8.9,
+      year: 1994,
+      duration: "154m",
+      thumbnail: "/thumbnails/pulpfiction.jpeg",
+      videoUrl: "/videos/movies/pulp-fiction.mp4"
+    },
+    {
+      id: 5,
+      title: "Fight Club",
+      description: "An insomniac office worker starts an underground fight club...",
+      category: "Drama",
+      rating: 8.8,
+      year: 1999,
+      duration: "139m",
+      thumbnail: "/thumbnails/fightclub.jpg",
+      videoUrl: "/videos/movies/fight-club.mp4"
+    },
+    {
+      id: 6,
+      title: "Inception",
+      description: "A thief who steals corporate secrets...",
+      category: "Sci-Fi",
+      rating: 8.8,
+      year: 2010,
+      duration: "148m",
+      thumbnail: "/thumbnails/inception.jpg",
+      videoUrl: "/videos/movies/inception.mp4"
+    },
+    {
+      id: 7,
+      title: "The Matrix",
+      description: "A computer hacker learns about reality...",
+      category: "Sci-Fi",
+      rating: 8.7,
+      year: 1999,
+      duration: "136m",
+      thumbnail: "/thumbnails/TheMatrix.jpg",
+      videoUrl: "/videos/movies/the-matrix.mp4"
+    },
+    {
+      id: 8,
+      title: "Goodfellas",
+      description: "The rise and fall of a mob associate...",
+      category: "Crime",
+      rating: 8.7,
+      year: 1990,
+      duration: "146m",
+      thumbnail: "/thumbnails/goodfellas.jpg",
+      videoUrl: "/videos/movies/goodfellas.mp4"
+    },
+    {
+      id: 9,
+      title: "The Silence of the Lambs",
+      description: "An FBI cadet interviews a cannibal killer...",
+      category: "Thriller",
+      rating: 8.6,
+      year: 1991,
+      duration: "118m",
+      thumbnail: "/thumbnails/silence.jpg",
+      videoUrl: "/videos/movies/the-silence-of-the-lambs.mp4"
+    },
+    {
+      id: 10,
+      title: "Interstellar",
+      description: "Explorers travel through a wormhole...",
+      category: "Sci-Fi",
+      rating: 8.6,
+      year: 2014,
+      duration: "169m",
+      thumbnail: "/thumbnails/interstellar.jpg",
+      videoUrl: "/videos/movies/interstellar.mp4"
+    },
+    {
+      id: 11,
+      title: "The Green Mile",
+      description: "A prison guard witnesses miraculous events...",
+      category: "Drama",
+      rating: 8.6,
+      year: 1999,
+      duration: "189m",
+      thumbnail: "/thumbnails/Green_mile.jpg",
+      videoUrl: "/videos/movies/the-green-mile.mp4"
+    },
+    {
+      id: 12,
+      title: "Forrest Gump",
+      description: "A simple man impacts major historical events...",
+      category: "Drama",
+      rating: 8.5,
+      year: 1994,
+      duration: "142m",
+      thumbnail: "/thumbnails/forrest_gump.jpg",
+      videoUrl: "/videos/movies/forrest-gump.mp4"
+    },
+    {
+      id: 13,
+      title: "The Lord of the Rings: The Fellowship of the Ring",
+      description: "A hobbit embarks on a quest to destroy a powerful ring...",
+      category: "Adventure",
+      rating: 8.5,
+      year: 2001,
+      duration: "178m",
+      thumbnail: "/thumbnails/lotr.jpg",
+      videoUrl: "/videos/movies/the-lord-of-the-rings-fellowship.mp4"
+    },
+    {
+      id: 14,
+      title: "Star Wars: Episode V - The Empire Strikes Back",
+      description: "The Rebels fight against the Galactic Empire...",
+      category: "Sci-Fi",
+      rating: 8.5,
+      year: 1980,
+      duration: "124m",
+      thumbnail: "/thumbnails/starwars.jpg",
+      videoUrl: "/videos/movies/star-wars-episode-v.mp4"
+    },
+    {
+      id: 15,
+      title: "The Godfather Part II",
+      description: "The early life of Vito Corleone and his son Michael...",
+      category: "Crime",
+      rating: 8.4,
+      year: 1974,
+      duration: "202m",
+      thumbnail: "/thumbnails/godfather2.jpg",
+      videoUrl: "/videos/movies/the-godfather-part-ii.mp4"
+    },
+    {
+      id: 16,
+      title: "The Lord of the Rings: The Two Towers",
+      description: "The fellowship continues their quest...",
+      category: "Adventure",
+      rating: 8.4,
+      year: 2002,
+      duration: "179m",
+      thumbnail: "/thumbnails/Lord_Rings_Two_Towers.jpg",
+      videoUrl: "/videos/movies/the-lord-of-the-rings-two-towers.mp4"
+    },
+    {
+      id: 17,
+      title: "One Flew Over the Cuckoo's Nest",
+      description: "A criminal pleads insanity and enters a mental institution...",
+      category: "Drama",
+      rating: 8.4,
+      year: 1975,
+      duration: "133m",
+      thumbnail: "/thumbnails/One_Flew_Over_the_Cuckoo's_Nest_poster.jpg",
+      videoUrl: "/videos/movies/one-flew-over-the-cuckoos-nest.mp4"
+    },
+    {
+      id: 18,
+      title: "Gladiator",
+      description: "A former Roman General seeks vengeance...",
+      category: "Action",
+      rating: 8.3,
+      year: 2000,
+      duration: "155m",
+      thumbnail: "/thumbnails/Gladiator_(2000_film_poster).png",
+      videoUrl: "/videos/movies/gladiator.mp4"
+    },
+    {
+      id: 19,
+      title: "The Lord of the Rings: The Return of the King",
+      description: "The final battle for Middle-earth...",
+      category: "Adventure",
+      rating: 8.3,
+      year: 2003,
+      duration: "201m",
+      thumbnail: "/thumbnails/lotr3.jpg",
+      videoUrl: "/videos/movies/the-lord-of-the-rings-return.mp4"
+    },
+    {
+      id: 20,
+      title: "The Dark Knight Rises",
+      description: "Batman faces the terrorist Bane...",
+      category: "Action",
+      rating: 8.3,
+      year: 2012,
+      duration: "164m",
+      thumbnail: "/thumbnails/darkknight2.jpg",
+      videoUrl: "/videos/movies/the-dark-knight-rises.mp4"
+    },
+    {
+      id: 21,
+      title: "The Pianist",
+      description: "A Polish Jewish musician survives WWII...",
+      category: "Drama",
+      rating: 8.3,
+      year: 2002,
+      duration: "150m",
+      thumbnail: "/thumbnails/The_Pianist_movie.jpg",
+      videoUrl: "/videos/movies/the-pianist.mp4"
+    },
+    {
+      id: 22,
+      title: "Parasite",
+      description: "A poor family infiltrates a wealthy household...",
+      category: "Thriller",
+      rating: 8.3,
+      year: 2019,
+      duration: "132m",
+      thumbnail: "/thumbnails/parasite.jpg",
+      videoUrl: "/videos/movies/parasite.mp4"
+    },
+    {
+      id: 23,
+      title: "Django Unchained",
+      description: "A freed slave becomes a bounty hunter...",
+      category: "Western",
+      rating: 8.2,
+      year: 2012,
+      duration: "165m",
+      thumbnail: "/thumbnails/django.jpg",
+      videoUrl: "/videos/movies/django-unchained.mp4"
+    },
+    {
+      id: 24,
+      title: "The Departed",
+      description: "An undercover cop and a mole hunt each other...",
+      category: "Crime",
+      rating: 8.2,
+      year: 2006,
+      duration: "151m",
+      thumbnail: "/thumbnails/Departed234.jpg",
+      videoUrl: "/videos/movies/the-departed.mp4"
+    },
+    {
+      id: 25,
+      title: "Whiplash",
+      description: "A young drummer pursues perfection...",
+      category: "Drama",
+      rating: 8.2,
+      year: 2014,
+      duration: "106m",
+      thumbnail: "/thumbnails/whiplash.jpg",
+      videoUrl: "/videos/movies/whiplash.mp4"
+    },
+    {
+      id: 26,
+      title: "Joker",
+      description: "A failed comedian descends into madness...",
+      category: "Thriller",
+      rating: 8.2,
+      year: 2019,
+      duration: "122m",
+      thumbnail: "/thumbnails/joker.jpeg",
+      videoUrl: "/videos/movies/joker.mp4"
+    },
+    {
+      id: 27,
+      title: "Inglourious Basterds",
+      description: "Jewish soldiers plot to kill Nazi leaders...",
+      category: "War",
+      rating: 8.1,
+      year: 2009,
+      duration: "153m",
+      thumbnail: "/thumbnails/inglbstrd.jpg",
+      videoUrl: "/videos/movies/inglourious-basterds.mp4"
+    },
+    {
+      id: 28,
+      title: "The Prestige",
+      description: "Two magicians engage in competitive one-upmanship...",
+      category: "Mystery",
+      rating: 8.1,
+      year: 2006,
+      duration: "130m",
+      thumbnail: "/thumbnails/the-prestige-479739l.jpg",
+      videoUrl: "/videos/movies/the-prestige.mp4"
+    },
+    {
+      id: 29,
+      title: "The Wolf of Wall Street",
+      description: "A stockbroker engages in corruption and fraud...",
+      category: "Biography",
+      rating: 8.1,
+      year: 2013,
+      duration: "180m",
+      thumbnail: "/thumbnails/wolf.jpeg",
+      videoUrl: "/videos/movies/foc.mp4"
+    },
+    {
+      id: 30,
+      title: "Avengers: Infinity War",
+      description: "The Avengers battle the powerful Thanos...",
+      category: "Action",
+      rating: 8.0,
+      year: 2018,
+      duration: "149m",
+      thumbnail: "/thumbnails/avng inf war.jpg",
+      videoUrl: "/videos/movies/avengers-infinity-war.mp4"
+    },
+    {
+      id: 31,
+      title: "The Sixth Sense",
+      description: "A child psychologist helps a boy who sees dead people...",
+      category: "Horror",
+      rating: 8.0,
+      year: 1999,
+      duration: "107m",
+      thumbnail: "/thumbnails/The_Sixth_Sense_poster.png",
+      videoUrl: "/videos/movies/the-sixth-sense.mp4"
+    },
+    {
+      id: 32,
+      title: "The Truman Show",
+      description: "A man discovers his entire life is a TV show...",
+      category: "Comedy",
+      rating: 8.0,
+      year: 1998,
+      duration: "103m",
+      thumbnail: "/thumbnails/Trumanshow.jpg",
+      videoUrl: "/videos/movies/the-truman-show.mp4"
+    },
+    {
+      id: 33,
+      title: "Shutter Island",
+      description: "A U.S. Marshal investigates a psychiatric facility...",
+      category: "Mystery",
+      rating: 8.0,
+      year: 2010,
+      duration: "138m",
+      thumbnail: "/thumbnails/Shutter_Island_scan.jpg",
+      videoUrl: "/videos/movies/shutter-island.mp4"
+    },
+    {
+      id: 34,
+      title: "Blade Runner 2049",
+      description: "A new blade runner uncovers a long-buried secret...",
+      category: "Sci-Fi",
+      rating: 8.0,
+      year: 2017,
+      duration: "164m",
+      thumbnail: "/thumbnails/blade.jpg",
+      videoUrl: "/videos/movies/blade-runner-2049.mp4"
+    },
+    {
+      id: 35,
+      title: "The Social Network",
+      description: "The story of Facebook's creation...",
+      category: "Biography",
+      rating: 7.7,
+      year: 2010,
+      duration: "120m",
+      thumbnail: "/thumbnails/social.jpg",
+      videoUrl: "/videos/movies/the-social-network.mp4"
+    }
+  ];
+  
+  export const movieCategories = [
+    "Action", "Adventure", "Biography", "Comedy", 
+    "Crime", "Drama", "Horror", "Mystery", 
+    "Sci-Fi", "Thriller", "War", "Western"
+  ];
